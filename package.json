@@ -1,0 +1,23 @@
+{
+  "name": "tw-rec",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "bin": "./lib/TweetRecorder.js",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel ./src -d ./lib",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryo Narita",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "fs-plus": "^2.8.1",
+    "minimist": "^1.2.0",
+    "twitter": "^1.2.5"
+  }
+}
